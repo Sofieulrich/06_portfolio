@@ -1,0 +1,554 @@
+/********************GENERELT********************/
+body {
+  background-color: #f0f0e8;
+  margin: 2%;
+}
+
+header {
+  font-family: "scotch-display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+main {
+  font-family: "scotch-display", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0% 3% 0% 3%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 75px;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+p {
+  font-family: "bilo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+.back_knap {
+  padding: 1.5em;
+  width: 5%;
+}
+
+.back_knap:hover {
+  color: #3376e9;
+}
+
+.a_knap {
+  color: black;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.billeder_opgaver {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border: solid 0.5px black;
+}
+
+/********************FOOTER*********************/
+.footer_tekst {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.footer_tekst p {
+  font-family: "scotch-display", sans-serif;
+}
+
+/*********************FORSIDE********************/
+
+.forside_main {
+  background-image: url(billeder/baggrund_forside.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  margin-right: 4%;
+}
+
+.menu a {
+  font-family: "scotch-display", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.menu a:hover {
+  color: #3376e9;
+}
+
+#grid_4_1 {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.portfolio_overskrift {
+  grid-column: 1;
+}
+.portfolio_overskrift h1 {
+  text-align: center;
+}
+
+.port {
+  text-decoration: underline 1px;
+  font-size: 200px;
+  margin-left: 8%;
+}
+
+.year {
+  font-family: monospace;
+  font-size: 50px;
+}
+.space {
+  color: rgba(255, 255, 255, 0);
+}
+.portfolio_tekst {
+  font-weight: lighter;
+  margin-left: 23%;
+  margin-top: -18%;
+  font-size: 200px;
+}
+
+.su_1s {
+  margin-top: 110%;
+}
+
+.su_1s h3 {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+/********************MY WORK*******************/
+.work {
+  font-weight: lighter;
+}
+#mywork_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.tema {
+  text-decoration: none;
+  color: black;
+}
+
+.billeder_mywork {
+  max-width: 100%;
+  border-radius: 50%;
+  height: auto;
+  display: block;
+  border: solid 0.5px black;
+}
+
+.tal {
+  font-family: monospace;
+}
+
+.kolonne {
+  filter: grayscale(1);
+}
+.kolonne:hover {
+  color: #3376e9;
+  filter: grayscale(0);
+}
+
+/***********************OM MIG**********************/
+
+.grid_ommig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0% 10% 0% 20%;
+  justify-content: center;
+  align-content: center;
+}
+
+.billeder_ommig {
+  max-width: 75%;
+  border-radius: 50%;
+  height: auto;
+  display: block;
+  border: solid 0.5px black;
+}
+
+.info h3 {
+  font-weight: 300;
+}
+
+.info_tekst {
+  padding: 5%;
+}
+
+.ul_cv {
+  font-family: "bilo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*********************OPGAVER********************/
+
+.opgave_main {
+  margin: 0% 10% 0% 10%;
+}
+
+.grid_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2%;
+  gap: 5%;
+  margin-bottom: 5%;
+}
+
+.grid_1_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2%;
+  gap: 5%;
+  margin-bottom: 5%;
+}
+
+.grid_1_1_1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 5%;
+  gap: 2%;
+}
+
+.billeder_2_website {
+  max-width: 75%;
+  height: auto;
+  display: block;
+}
+
+.billeder_2_website2 {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tekst1 {
+  padding-right: 10%;
+}
+
+.se_opgave {
+  font-size: 25px;
+  text-align: center;
+  font-family: "scotch-display", sans-serif;
+  color: black;
+  margin-top: 5%;
+}
+
+.se_opgave:hover {
+  color: #3376e9;
+}
+
+/******************EMNESITE*********************/
+.grid_moodboard_styletile {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.styletile_emnesite {
+  max-width: 85%;
+  height: auto;
+  display: block;
+}
+/************************TEMAOPGAVE OVERSIGT************************/
+
+#opgave_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.videosite_knap {
+  border: solid 0.5px black;
+  background-color: #3376e9;
+  border-radius: 50%;
+  padding: 25%;
+  width: 5%;
+}
+
+.grid_tema_opgave {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5%;
+  gap: 20%;
+  padding-bottom: 3em;
+}
+
+/**************************UX*********************/
+
+.ux_ul {
+  font-family: "bilo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ux_billeder {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.ux_prototype_xd {
+  max-width: 75%;
+  height: auto;
+  display: block;
+}
+
+/************************ANIMATION****************/
+
+.animation_billeder {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 5%;
+}
+
+.animation_stil_billede {
+  max-width: 80%;
+  height: auto;
+  display: block;
+}
+
+.animationsdiagram {
+  background-color: white;
+  padding: 1cm;
+}
+
+.diagram_billede {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 1em;
+}
+
+.aktivitets_tekst {
+  align-items: center;
+}
+
+.animation_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+}
+
+.h3_spil {
+  text-decoration: none;
+}
+
+.grid_spil {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.spil_billede_tekst2 {
+  padding-bottom: 5em;
+}
+
+.javascript_billede {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding-bottom: 5em;
+}
+
+.spil_billede_tekst3 {
+  margin-top: 21.8%;
+}
+
+/**********************INDHOLD**********************/
+
+.indhold_billeder {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.mockups_h3 {
+  display: none;
+}
+
+/************************************************/
+/*******************MOBIL************************/
+
+@media (max-width: 800px) {
+  /*****************FORSIDE****************/
+  .forside_main {
+    background-image: url(billeder/baggrund_forside_mobil.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+  }
+
+  .port {
+    text-decoration: underline 1px;
+    font-size: 100px;
+    margin-left: 16%;
+  }
+
+  .portfolio_tekst {
+    font-weight: lighter;
+    margin-left: 14%;
+    margin-top: -77%;
+    font-size: 80px;
+  }
+
+  .su_1s {
+    margin-top: 265%;
+    margin-left: -192%;
+  }
+  /******************MY WORK******************/
+  #mywork_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0%;
+    margin: 4%;
+  }
+
+  .my_work_h1 {
+    font-size: 50px;
+  }
+
+  /******************WEB**********************/
+
+  .web_h1 {
+    font-size: 40px;
+  }
+
+  .grid_tema_opgave {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 5%;
+    gap: 0%;
+    padding-bottom: 3em;
+  }
+
+  /*********************WEBSITE*******************/
+
+  .website_h1 {
+    font-size: 35px;
+  }
+
+  /******************EMNESITE*****************/
+
+  .emnesite_h1 {
+    font-size: 35px;
+  }
+
+  /*******************UX**********************/
+
+  .ux_h1 {
+    font-size: 35px;
+  }
+
+  /*******************ANIMATION****************/
+
+  .animation_h1 {
+    font-size: 35px;
+  }
+
+  /******************INDHOLD*****************/
+
+  .indhold_h1 {
+    font-size: 40px;
+  }
+
+  /****************VIDEOSITE*********************/
+
+  .videosite_h1 {
+    font-size: 40px;
+  }
+
+  /******************VIRKSOMHEDSSITE**************/
+
+  .virksomhedssite_h1 {
+    font-size: 40px;
+  }
+
+  .mockups_h3 {
+    display: block;
+    font-size: 18px;
+  }
+
+  /********************OM MIG******************/
+
+  .grid_ommig {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 4%;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .ommig_h1 {
+    font-size: 50px;
+  }
+
+  /*******************OPGAVER********************/
+
+  .grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2%;
+    gap: 0%;
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+
+  .grid_1_2 {
+    display: flex;
+    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+    margin-top: 2%;
+    gap: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+  }
+
+  .animation_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+    place-items: center;
+    margin-bottom: 18%;
+    justify-content: center;
+  }
+
+  .tekst1 {
+    margin: 0%;
+  }
+
+  /*****************PORTFOLIO SIDE****************/
+
+  .portfolio_h1 {
+    font-size: 40px;
+  }
+}

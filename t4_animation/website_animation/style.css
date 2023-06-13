@@ -1,0 +1,453 @@
+/***********************GENERELT**********************/
+
+h1 {
+  color: #d6cbfd;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+}
+
+h4 {
+  font-family: "Bebas Neue", cursive;
+}
+
+p {
+  font-family: monospace;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 2%;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+  font-family: "Bebas Neue", cursive;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
+
+a.active {
+  color: #f1e8df;
+}
+
+main {
+  padding: 2cm;
+}
+/*******************FORSIDE***************/
+
+.index_pic {
+  height: auto;
+  max-width: 100%;
+}
+
+/**********************SPIL********************/
+
+#screen {
+  width: 100%;
+  aspect-ratio: 16/9;
+  position: relative;
+  overflow: hidden;
+  container-type: inline-size;
+}
+
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(billeder/SVG/start.svg);
+  background-size: cover;
+}
+
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(billeder/SVG/taber.svg);
+  background-size: cover;
+  font-size: 50px;
+}
+
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(billeder/SVG/vinder.svg);
+  background-size: cover;
+}
+
+#game_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-image: url(billeder/SVG/spilbaggrund.svg);
+  background-size: cover;
+}
+
+#game_ui {
+  position: absolute;
+  left: 1cm;
+  color: white;
+}
+
+#point {
+  color: pink;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+}
+
+#liv {
+  color: pink;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Pacifico", cursive;
+}
+
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#meteor_container1,
+#meteor_container2 {
+  position: absolute;
+  width: 17%;
+  aspect-ratio: 293/215;
+}
+
+#meteor_sprite1,
+#meteor_sprite2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/SVG/meteor.svg);
+  background-size: cover;
+}
+
+#tool_container1,
+#tool_container2 {
+  position: absolute;
+  width: 8%;
+  aspect-ratio: 160/275;
+}
+
+#tool_sprite1,
+#tool_sprite2 {
+  width: 100%;
+  height: 100%;
+  background-image: url(billeder/SVG/tool.svg);
+  background-size: cover;
+}
+
+#time_container {
+  width: 5%;
+  aspect-ratio: 1/5;
+  border: solid;
+  top: 24%;
+  left: 4%;
+  position: absolute;
+}
+
+#time_sprite {
+  width: 100%;
+  height: 100%;
+  transform-origin: bottom;
+  background-color: pink purple;
+}
+
+.displaynone {
+  display: none;
+}
+
+#start_knap {
+  width: 20%;
+  position: absolute;
+  top: 34%;
+  left: 40%;
+  background-image: url(billeder/SVG/playknap.svg);
+  background-size: cover;
+  animation-name: puls_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: alternate;
+  aspect-ratio: 15/9;
+}
+
+#tryagain_knap1,
+#tryagain_knap2 {
+  width: 18%;
+  position: absolute;
+  top: 49%;
+  left: 39%;
+  background-image: url(billeder/SVG/tryagainknap.svg);
+  background-size: cover;
+  animation-name: puls_kf;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: alternate;
+  aspect-ratio: 9/5;
+}
+
+@keyframes puls_kf {
+  100% {
+    scale: 1.2;
+  }
+}
+
+/********************GRAFIK***************/
+
+.moodboard {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.startskitse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.spilbaggrundskitse {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.detaljer {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.detaljer2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.detaljer_illustrator {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.styletile {
+  display: block;
+  width: 40%;
+}
+
+/****************ASSETS*****************/
+
+.forside_pic {
+  height: auto;
+  max-width: 75%;
+}
+
+.spilbaggrund_pic {
+  height: auto;
+  max-width: 75%;
+}
+
+.taber_pic {
+  height: auto;
+  max-width: 75%;
+}
+
+.vinder_pic {
+  height: auto;
+  max-width: 75%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+/*****************TEKNIK****************/
+
+.aktivitetsdiagram {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.statemachine {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+/***********************MOBIL********************/
+@media (max-width: 700px) {
+  main {
+    padding: 0.5cm;
+  }
+
+  /*********************SPIL*********************/
+
+  #point {
+    color: pink;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Pacifico", cursive;
+    font-size: 10px;
+  }
+
+  #liv {
+    color: pink;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: "Pacifico", cursive;
+    font-size: 10px;
+  }
+
+  /*********************GRAFIK******************/
+
+  .moodboard {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .startskitse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .spilbaggrundskitse {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .detaljer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .detaljer2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .detaljer_illustrator {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .styletile {
+    display: block;
+    width: 100%;
+  }
+
+  /***********************ASSETS******************/
+
+  .forside_pic {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .spilbaggrund_pic {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .taber_pic {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .vinder_pic {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 50%;
+  }
+
+  .tool_pic {
+    height: auto;
+    max-width: 50%;
+  }
+
+  .meteor_pic {
+    height: auto;
+    max-width: 75%;
+  }
+
+  .playknap_pic {
+    height: auto;
+    max-width: 75%;
+  }
+
+  .tryagainknap_pic {
+    height: auto;
+    max-width: 75%;
+  }
+}

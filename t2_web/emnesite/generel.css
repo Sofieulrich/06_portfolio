@@ -1,0 +1,279 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+main {
+  margin: 1%;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 0px;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  background-color: #f1e8df;
+}
+
+h2 {
+  font-family: "Quicksand", sans-serif;
+text-align: center;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: "Playfair Display", serif;
+  margin: 1%;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: black;
+  font-family: "Quicksand", sans-serif;
+}
+
+.col {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 5px;
+}
+
+.velkommen {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.velkommen h2 {
+  margin-top: 50%;
+}
+
+.farve {
+  color: #bcc8d7;
+  background-color: #bcc8d7;
+}
+.link {
+  background-color: #f1e8df;
+  padding: 0.5cm;
+}
+.fakta {
+  margin-top: 40%;
+}
+
+.anatomi_1 {
+  margin-top: 38%;
+  padding: 8%;
+}
+
+.anatomi_2 {
+  margin-top: 25%;
+}
+
+.blue {
+  background-color: #bcc8d7;
+  padding: 3cm
+}
+
+.beige {
+  background-color: #f1e8df;
+}
+
+.knap {
+  background-color: #aea7b4;
+}
+
+.anatomiknap {
+  font-size: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid black;
+  width: 200px;
+  height: 150px;
+  padding: 0.2cm;
+  text-align: center;
+  margin: 4cm;
+}
+
+#knaptekst {
+  text-align: center;
+  margin: 1cm;
+  margin-top: 50%;
+}
+.overskrift {
+  margin-bottom: 0%;
+  margin-top: 2%;
+}
+.livscyklus {
+  background-color: #c7d9d6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.livscyklus h3 {
+  margin-top: 40%;
+}
+.livscyklus p {
+  margin-top: 35%;
+  padding: 1cm;
+}
+
+.livscyklusliste {
+  background-color: #f1e8df;
+  font-family: "Quicksand", sans-serif;
+  padding: 1cm;
+  margin: 10%;
+}
+
+footer {
+  background-color: #f1e8df;
+  height: 75px;
+}
+
+.ikoner {
+  display: flex;
+  width: 10%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 2%;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+
+a:hover {
+  color: #bcc8d7;
+}
+
+a.active {
+  color: #f1e8df;
+}
+
+@media (max-width: 700px) {
+  header nav ul {
+    display: none;
+  }
+
+  header h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin: 0.5cm;
+  }
+
+  p {
+    font-size: 15px;
+    margin: 0.3cm;
+  }
+
+  .ikoner {
+    display: flex;
+    width: 38%;
+  }
+
+  .velkommen {
+    height: 7cm;
+  }
+
+  .velkommen h2 {
+    margin-top: 5%;
+    padding-top: 30%;
+  }
+
+  .velkommen p {
+    margin-top: 0%;
+  }
+
+  .anatomiknap {
+    margin: 2cm;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .livscyklus {
+    grid-template-columns: 1fr;
+  }
+
+  .fakta {
+    margin-top: 0;
+  }
+
+  #knaptekst {
+    margin-top: 0%;
+  }
+
+  .anatomiknap {
+    padding: 0.2cm;
+    margin-left: 2.25cm;
+  }
+
+  .anatomi_1 {
+    margin-top: 5%;
+    padding: 0%;
+  }
+
+  .anatomi_2 {
+    margin-top: 0%;
+  }
+
+  .knap {
+    max-width: 100%;
+    height: 4cm;
+    display: block;
+    padding: 0px;
+  }
+
+  .livscyklus h3 {
+    margin-top: 10%;
+  }
+
+  .blue {
+  background-color: #bcc8d7;
+  padding: 0cm;
+}
+
+h3 {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  padding: 0cm;
+}
+
+  .livscyklus p {
+    margin-top: 2%;
+    padding: 0;
+  }
+
+  nav {
+    --less-than: 600;
+    --burger-lines:  
+    --burger-border:
+  }
+  
+}

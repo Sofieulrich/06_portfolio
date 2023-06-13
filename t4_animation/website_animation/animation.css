@@ -1,0 +1,95 @@
+.fald {
+  animation-name: fald_kf;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes fald_kf {
+  100% {
+    translate: 0 500%;
+  }
+}
+
+.pos1 {
+  left: 35%;
+}
+
+.pos2 {
+  left: 45%;
+}
+
+.pos3 {
+  left: 65%;
+}
+
+.pos4 {
+  left: 80%;
+}
+
+.pos5 {
+  left: 86%;
+}
+
+.forsvind {
+  animation-name: forsvind_kf;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes forsvind_kf {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_kf {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.frys {
+  animation-play-state: paused;
+}
+
+.time {
+  animation-name: time_kf;
+  animation-duration: 30s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes time_kf {
+  0% {
+    transform: scaleY(1);
+    background-color: purple;
+  }
+  50% {
+    background-color: plum;
+  }
+  100% {
+    transform: scaleY(0);
+    background-color: pink;
+  }
+}

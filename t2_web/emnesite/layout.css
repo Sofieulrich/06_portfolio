@@ -1,0 +1,30 @@
+@media (min-width: 750px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1cm;
+  }
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1cm;
+  }
+
+  .grid_1-2-1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1cm;
+    margin-top: 3%;
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+}

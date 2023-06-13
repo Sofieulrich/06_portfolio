@@ -1,0 +1,112 @@
+body {
+  background-image: url(billeder/tromme1.JPG);
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 2%;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+  font-family: "Bebas Neue", cursive;
+}
+
+a {
+  text-decoration: none;
+  padding: 2cm;
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+}
+
+a:hover {
+  color: #ff007f;
+}
+
+a.active {
+  color: #f1e8df;
+}
+
+main {
+  padding: 2cm;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #ff007f;
+}
+
+h3 {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  background-color: black;
+  font-size: 30px;
+}
+
+#trommeslager {
+  font-size: 35px;
+}
+
+/*************************INDEX*********************************/
+
+#video {
+  height: auto;
+  max-width: 100%;
+}
+
+/***************************Snapshots*******************************/
+
+#philpics {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: underline;
+  color: #ff007f;
+}
+
+#billede1 {
+  height: auto;
+  max-width: 100%;
+  border: black 5px;
+}
+
+#billede2 {
+  height: auto;
+  max-width: 100%;
+}
+
+#billede3 {
+  height: auto;
+  max-width: 100%;
+}
+
+#billede4 {
+  height: auto;
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+#detaljer {
+  display: grid;
+  place-content: center;
+}

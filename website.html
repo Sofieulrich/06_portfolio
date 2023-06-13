@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/dvv1lev.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/dvv1lev.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="burger.css" />
+    <title>Website/studiestatsprøve</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="mywork.html">MY WORK</a></li>
+          <li><a href="ommig.html">OM MIG</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <main class="opgave_main">
+      <h1 class="website_h1"><span class="work">Website</span> /STUDIESTART</h1>
+      <div class="grid_1_1">
+        <div class="tekst2">
+          <h2>Wireframes og Layoutdiagrammer</h2>
+          <p>Vores første opgave på semesteret var et computer website, som også fungerede som studiestartsprøven.</p>
+          <p>Vi fik udleveret en række wireframes som viste hvilket indhold, her tekst og billeder, der skulle være på websitet, og hvor det skulle placeres. Wireframes er en visuel guide, som repræsenterer skeletstrukturen på et website, og den hjælper med at danne et overblik over hvordan tekst og billeder skal placeres i forhold til hinanden.</p>
+          <p>Derudover fik vi udleveret layoutdiagrammer, for websitets opbygning. Layoutdiagrammerne hjælper en til at forstå hvordan man skal kode sin side, og giver et overblik over sidernes forskellige sektioner og kolonner, så man til sidst rammer layoutet fra sit wireframe.</p>
+        </div>
+        <img src="billeder/opgave_pics/tema_2/website/wireframe_layoutd.webp" alt="wireframe_layoutd" class="billeder_2_website" />
+      </div>
+      <hr />
+      <div class="grid_1_2">
+        <img src="billeder/opgave_pics/tema_2/website/web_html_css.webp" alt="web_html_css" class="billeder_2_website2" />
+        <div class="tekst1">
+          <h2>HTML og CSS</h2>
+          <p>For at arrangere sektionerne korrekt i henhold til layoutdiagrammet, anvendte jeg grid, i min HTML- og CSS-kode. Hver sektion blev sat ind i et grid, der kunne placere kolonnerne. I min HTML-fil opdelte jeg to elementer, tekst og billede, ved hjælp af<em>(&lt;section class=”grid_2-1”&gt;)</em>. I min layout CSS definerede jeg, at min section skulle opstilles som et grid. Her specificerede jeg også, at teksten skulle fylde 2/3 af siden ved at bruge 2fr, og at billedet skulle fylde 1/3 af siden ved at bruge 1fr. Ved at anvvende classes ved mine section og div-elementer, <em>(&lt;div class=”col”&gt;)</em>, blev det muligt for mig at opnå den ønskede opstilling i mit grid, via efterfølgende styling i CSS.</p>
+        </div>
+      </div>
+      <a href="t2_web/website/index.html" target="_blank"><h3 class="se_opgave">Klik her for at se min opgaveløsning</h3></a>
+      <a href="web.html" class="a_knap"> <div class="back_knap">BACK</div></a>
+    </main>
+    <footer>
+      <hr />
+      <div class="footer_tekst">
+        <p>Sofie Ulrich</p>
+        <p>1. Semester</p>
+      </div>
+    </footer>
+    <script src="burger.js"></script>
+  </body>
+</html>

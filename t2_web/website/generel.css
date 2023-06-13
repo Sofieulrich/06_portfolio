@@ -1,0 +1,155 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+main {
+  background-color: #2b50aa;
+  padding: 0.5cm;
+}
+
+section {
+  border-radius: 10px;
+}
+
+footer {
+  color: #ff858d;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  padding: 5px;
+}
+
+h1 {
+  font-family: "Anton", sans-serif;
+  color: #ff858d;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: solid;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  color: #ff858d;
+  font-size: 35px;
+  padding: 0.5cm;
+}
+
+h3 {
+  color: #ff858d;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  text-decoration: underline;
+  padding: 0.5cm;
+}
+
+p {
+  font-family: "Nunito Sans", sans-serif;
+  color: #ffd4d4;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.cta {
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: #ffd4d4;
+  border: 1px solid #ff858d;
+  width: 200px;
+  height: 150px;
+  padding: 0.2cm;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+  color: #ff858d;
+  font-weight: bold;
+  text-decoration: solid;
+}
+
+dl {
+  background-color: #ffd4d4;
+  padding: 1cm;
+}
+
+dt {
+  color: #ff858d;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+dd {
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+ul {
+  padding: 1em;
+}
+
+li {
+  color: #ffd4d4;
+  font-size: 18px;
+  font-family: "Nunito Sans", sans-serif;
+  letter-spacing: 0;
+  hyphens: auto;
+}
+
+header {
+  background-color: #ffd4d4;
+  position: sticky;
+  top: 0;
+  padding: 1rem 2rem;
+  box-shadow: 0 12px 28px 0 rgb(0 0 0 / 10%);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header .logo a {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 0.4rem;
+  gap: 30px;
+  overflow-x: auto;
+}
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
+}
+a:hover {
+  color: #ff858d;
+}
+
+a.active {
+  color: #ff858d;
+}
+
+@media (max-width: 700px) {
+  header {
+    display: none;
+  }
+}

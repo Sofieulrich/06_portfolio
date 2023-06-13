@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="animation.css" />
+    <title>Assets</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Forside</a></li>
+          <li><a href="spil.html">Spil</a></li>
+          <li><a href="grafik.html">Grafik</a></li>
+          <li><a href="assets.html">Assets</a></li>
+          <li><a href="teknik.html">Teknik</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1>Assetliste</h1>
+    <main>
+      <h2>Skærme</h2>
+      <article>
+        <h3>Startskærm</h3>
+        <img src="billeder/SVG/start.svg" alt="forside_pic" class="forside_pic" />
+        <h3>Spilskærm</h3>
+        <img src="billeder/SVG/spilbaggrund.svg" alt="spilbaggrund_pic" class="spilbaggrund_pic" />
+        <h3>Taber skærm</h3>
+        <img src="billeder/SVG/taber.svg" alt="taber_pic" class="taber_pic" />
+        <h3>Vinder skærm</h3>
+        <img src="billeder/SVG/vinder.svg" alt="vinder_pic" class="vinder_pic" />
+      </article>
+      <h2>Spil-elementer</h2>
+      <article>
+        <div class="row">
+          <div class="column">
+            <h3>Værktøj - Godt element</h3>
+            <img src="billeder/SVG/tool.svg" alt="tool_pic" class="tool_pic" />
+          </div>
+          <div class="column">
+            <h3>Meteor - Dårligt element</h3>
+            <img src="billeder/SVG/meteor.svg" alt="meteor_pic" class="meteor_pic" />
+          </div>
+        </div>
+      </article>
+      <h2>UI-elementer</h2>
+      <article>
+        <div class="row">
+          <div class="column">
+            <h3>Play-knap</h3>
+            <img src="billeder/SVG/playknap.svg" alt="playknap_pic" class="playknap_pic" />
+          </div>
+          <div class="column">
+            <h3>Try again-knap</h3>
+            <img src="billeder/SVG/tryagainknap.svg" alt="tryagainknap_pic" class="tryagainknap_pic" />
+          </div>
+        </div>
+      </article>
+      <h2>Lyde</h2>
+      <h3>Baggrundsmusik</h3>
+      <audio src="lyde/baggrund.mp3" id="sound_baggrund" controls></audio>
+      <h3>Værktøj lyd</h3>
+      <audio src="lyde/tool.mp3" id="sound_tool" controls></audio>
+      <h3>Meteor lyd</h3>
+      <audio src="lyde/meteor.mp3" id="sound_meteor" controls></audio>
+      <h3>Taber lyd</h3>
+      <audio src="lyde/toobad.mp3" id="sound_toobad" controls></audio>
+      <h3>Vinder lyd</h3>
+      <audio src="lyde/winner.mp3" id="sound_winner" controls></audio>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.typekit.net/dvv1lev.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/dvv1lev.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="burger.css" />
+    <title>Animation</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="menu">
+          <li><a href="mywork.html">MY WORK</a></li>
+          <li><a href="ommig.html">OM MIG</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <main class="opgave_main">
+      <h1 class="animation_h1"><span class="work">Grundlæggende</span> / ANIMATION</h1>
+      <p>På animations temaet blev vi introduceret til JavaScript og CSS-animationer. Vi lærte at designe grafiske elementer og implementere moderne konventioner og teknikker inden for spildesign. Gennem arbejdet med spillet lærte vi også om generel planlægning af interaktive flows ved hjælp af aktivitets- og statemachine-diagrammer.</p>
+      <p>Hovedopgaven 04.04.01 var at vi skulle kode et simpelt klik spil.</p>
+      <hr />
+      <h2>//04.04.01 Spilsite</h2>
+      <h3>Spilstil</h3>
+      <div class="grid_1_1">
+        <div class="tekst1">
+          <p>Første step i vores spil tilblivelses proces var at vi skulle vælge en stil til vores spildesign. Jeg valgte at arbejde med "Flat Design"</p>
+          <p>Flat design spil har oftest et minimalistisk udseende med enkle former, klare-, lyse farver og ingen skygger eller gradienter.</p>
+          <p>Derudover lod jeg mig inspirere af tegnefilmen Steven Universe, hvoraf jeg ville lade mig inspirere til mit figur og baggrundsdesign, og udtrække en række farver til mit spil.</p>
+        </div>
+        <img src="billeder/opgave_pics/tema_4/animation_stil.webp" alt="animation_stil" class="animation_stil_billede" />
+      </div>
+      <h3>Spil idé</h3>
+      <div class="grid_1_2">
+        <img src="billeder/opgave_pics/tema_4/animation_papirskitse.webp" alt="animation_papirskitse" class="animation_billeder" />
+        <div class="tekst1">
+          <h4>Papirprototype</h4>
+          <p>Efterfølgende begyndte jeg at planlægge hvad der skulle ske i mit spil. Jeg startede med at lave en papir prototype, for at bestemme mig for hvilke features der skulle være i spillet. På billederne ses min første skitse til en spil forside, og min første skitse til en spilbaggrund, med dertilhørende interaktive spil-elementer.</p>
+          <h4>Spillet</h4>
+          <p>I dette spil skal du hjælpe en alien, som er styrtet ned på en fremmed planet, der hærges af en dødbringende meteorregn. Hendes UFO er gået i stykker og hun mangler værktøj til at reparere den, for at kunne komme hjem til hendes egen planet. Hjælp hende med at skaffe så meget værktøj du kan, til at reparere hendes rumskib i tide, og pas på meteorerne. Man taber spillet hvis man klikker på 3 meteorer. Der skal mindst 8 stykker værktøj til for at sende vores alien ud på hendes rumrejse igen.</p>
+        </div>
+      </div>
+      <hr />
+      <h3>Aktivitetsdiagram og State Machine Diagram</h3>
+      <p>Jeg lavede et "Aktivitetsdiagram", som er et diagram der beskriver spillets interaktive systemer. Aktivitetsdiagrammet viser en sekvens af handlinger, som udføres i en bestemt rækkefølge. Dog kan handlingerne variere fra gang til gang, når aktiviteten udføres.</p>
+      <p>Udover det lavede jeg et "State Machine Diagram". Et state machine diagram viser de forskellige "states" som aktiviteterne kan befinde sig i. Derudover viser det også hvordan de forskellige "states" er forbundet til hinanden, og hvordan overgangene er imellem dem. State machine diagrammet er med til at give en dybere forståelse for, hvordan spillet reagerer og ændrer tilstand baseret på brugerens handlinger. Klikker man f.eks. På en meteor mister man et liv, hvorimod man får ét point hvis man klikker på et stykke værktøj.</p>
+      <div class="grid_1_1">
+        <img src="billeder/opgave_pics/tema_4/aktivitetsdiagram.webp" alt="aktivitets_diagram" class="animation_billeder" />
+        <img src="billeder/opgave_pics/tema_4/statemachine.webp" alt="state_machine" class="diagram_billede" />
+      </div>
+      <hr />
+      <h2>Adobe Illustrator</h2>
+      <div class="grid_1_1">
+        <div class="tekst_billede">
+          <div class="tekst1">
+            <p>Til at lave mine spil illustrationer, har jeg benyttet mig af Adobe Illustrator. For at ramme flat design stilen er mine spilelementer, min karakter og mit baggrundsdesign tegnet som solid drawing uden strokes. Derudover har jeg benyttet mig af lag på nogle af mine elementer, for at skabe en dybde, og for at lave en effekt af "pop op". Jeg har benyttet mig af baby bias og kiki/bouba stilen i mit spil, ved at give mine gode elementer en rund og blød formgivning, og modsat, mine onde elementer en skarp og kantet formgivning. Det ses bl.a. på mine spilelementer, hvor det gode element, mit værktøj, har runde former, og mit onde element, meteoren, har en spids og skarp form.</p>
+            <p>Mine figurer bærer præg af at være computer-genererede, og deres "cartoon" agtige udseende, er med til at understrege at det er digitalt design. Jeg har lavet alle mine spilelementer, min karakter og min baggrund, ved hjælp af rentegning i Illustrator, oven på mine originale papirskitser, hvorefter jeg har tilføjet nogle enkelte detaljer, i videreudviklingen af mit design.</p>
+          </div>
+          <div class="spil_billede_tekst3">
+            <h3 class="h3_spil">//STARTSKÆRM</h3>
+            <img src="billeder/opgave_pics/tema_4/animation_start_game.png" alt="animation_start_game" class="animation_billeder" />
+          </div>
+        </div>
+        <div class="grid_spil">
+          <div class="spil_billede_tekst">
+            <h3 class="h3_spil">//SPILELEMENTER</h3>
+            <img src="billeder/opgave_pics/tema_4/spilelementer.webp" alt="spil_elementer" class="animation_billeder" />
+          </div>
+          <div class="spil_billede_tekst2">
+            <h3 class="h3_spil">//SPILSKÆRM</h3>
+            <img src="billeder/opgave_pics/tema_4/play.webp" alt="play" class="animation_billeder" />
+          </div>
+        </div>
+      </div>
+      <hr />
+      <h2>JavaScript</h2>
+      <div class="grid_1_1">
+        <div class="tekst1">
+          <p class="javascript_tekst">Jeg har brugt JavaScript til at gøre mine spilelementer interaktive. Med JavaScript går man ind og vælger et HTML-element ved at bruge funktionen querySelector - det kunne eksempelvis være "document.querySelector("#meteor_container1")". For derefter at gøre spilelementet levende, skal man tilføje events. Det kunne f.eks. Være mousedown, og kan se ud som følgende: "meteor1.addEventListener("mousedown", clickMeteorHandler);". Nu ved mit spil at den skal gå videre til min funktion ClickMeteorHandler, som i dette tilfælde vil afspille en lyd og forsvinde (ved hjælp af min forsvind animation i CSS, for derefter at starte igen på en random position.</p>
+        </div>
+        <img src="billeder/opgave_pics/tema_4/javascript.webp" alt="javascript" class="javascript_billede" />
+      </div>
+      <a href="t4_animation/website_animation/" target="_blank"><h3 class="se_opgave">Klik her for at se min opgaveløsning</h3></a>
+      <a href="mywork.html" class="a_knap"> <div class="back_knap">BACK</div></a>
+    </main>
+    <footer>
+      <hr />
+      <div class="footer_tekst">
+        <p>Sofie Ulrich</p>
+        <p>1. Semester</p>
+      </div>
+    </footer>
+    <script src="burger.js"></script>
+  </body>
+</html>

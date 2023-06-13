@@ -1,0 +1,89 @@
+/*******************mobil******************************/
+.main_omos {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+img {
+  margin-left: 0px;
+}
+/**************** tekst ************************/
+
+h1 {
+  text-align: center;
+
+  padding-top: 50px;
+}
+.tekst p {
+  margin-bottom: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 8%;
+  font-size: 0.8rem;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+}
+
+.text_box {
+  margin-top: 30px;
+  margin-left: 2px;
+  background-color: #c7d2dd;
+  width: 450px;
+  height: 600px;
+}
+
+video {
+  margin-top: 15%;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/******************************************** web ****************************************************/
+
+@media (min-width: 750px) {
+  .main_omos {
+
+    margin-left: 120px;
+    margin-right: 120px;
+  }
+  /************************ billeder ****************************/
+  img {
+    margin-left: 10px;
+  }
+  video {
+    margin-left: 10px;
+  }
+  .billed_butik {
+    margin-top: 15px;
+  }
+
+  /*************************** tekst ******************************/
+  .tekst p {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 8%;
+    font-size: 1rem;
+    line-height: 27px;
+  }
+  .text_box {
+    margin-top: 15%;
+    margin-left: 45px;
+    background-color: #c7d2dd;
+    width: 500px;
+    height: 744px;
+  }
+  /*******************************grid*****************************/
+  .grid_omos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_billeder {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .tekst {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

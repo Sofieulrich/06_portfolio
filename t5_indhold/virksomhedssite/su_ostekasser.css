@@ -1,0 +1,149 @@
+.main_ostekasse {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+/*******************TEKST*********************/
+h1 {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.titel {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 1px;
+}
+
+.pris {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  padding-top: 1px;
+  padding-bottom: 10px;
+}
+/*******************BILLEDER******************/
+
+#ostekasse_cover {
+  width: 100%;
+  padding-bottom: 5%;
+  display: block;
+  height: auto;
+}
+
+.ostekasse {
+  width: 85%;
+  display: block;
+  height: auto;
+  padding-top: 75px;
+  padding-left: 100px;
+}
+
+/*******************GRID*********************/
+
+#grid_ostekasser {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: #c7d2dd7c;
+}
+
+/*******************POP UP*******************/
+
+#popup {
+  position: absolute;
+  background-color: #fffffff4;
+  width: 20%;
+  height: 95px;
+  margin-left: 1100px;
+  border: solid;
+  border-width: 1px;
+  border-color: #bfbfbf;
+}
+
+.close {
+  color: #606060;
+  float: right;
+  padding-right: 6px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup_tekst {
+  color: #606060;
+  padding-top: 35px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+/************************MOBIL***********************/
+@media (max-width: 800px) {
+  h1 {
+    text-align: center;
+    font-family: "playfair";
+    padding-top: 70px;
+    font-size: 30px;
+  }
+
+  #grid_ostekasser {
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #c7d2ddbd;
+  }
+
+  .main_ostekasse {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .ostekasse {
+    display: block;
+    height: auto;
+  }
+
+  /*********************POP UP************************/
+
+  #popup {
+    position: absolute;
+    background-color: #fffffff4;
+    width: 30%;
+    height: 80px;
+    margin-left: 265px;
+    border: solid;
+    border-width: 1px;
+    border-color: #bfbfbf;
+  }
+
+  .close {
+    color: #606060;
+    float: right;
+    padding-right: 6px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .popup_tekst {
+    color: #606060;
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+  }
+}

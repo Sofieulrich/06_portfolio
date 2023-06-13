@@ -1,0 +1,143 @@
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid_1-1-1-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#apple84 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+
+#macbook {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+#desktop {
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 2;
+}
+
+#code {
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 1;
+}
+
+#chip {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+#keyboard {
+  grid-column: 1 / span 2;
+  grid-row: 7 / span 1;
+}
+
+@media (min-width: 750px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1cm;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1cm;
+  }
+
+  .grid_1-1 dl {
+    display: grid;
+    grid-column: 2/3;
+    list-style: none;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
+
+  .grid_5-3 {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    gap: 2em;
+  }
+  .order {
+    order: -1;
+  }
+
+  .grid_2-3 {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 2em;
+    margin-top: 1cm;
+  }
+
+  .grid_3-2 {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 2em;
+    margin-top: 1cm;
+  }
+
+  .flex_col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex_col img:last-child {
+    margin-top: auto;
+  }
+
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid_1-1-1-1 img {
+    align-self: stretch;
+    object-fit: cover;
+  }
+
+  #apple84 {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+  }
+
+  #macbook {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  #desktop {
+    grid-column: 4;
+    grid-row: 1;
+  }
+
+  #code {
+    grid-column: 3 / span 2;
+    grid-row: 2;
+  }
+
+  #chip {
+    grid-column: span 1;
+  }
+
+  #keyboard {
+    grid-column: 2 / span 3;
+    grid-row: 3;
+  }
+}

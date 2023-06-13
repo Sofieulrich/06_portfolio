@@ -1,0 +1,288 @@
+
+
+
+
+
+h1{
+   padding-top: 70px;
+   color: white;
+
+}
+
+.video_boks{
+   position: absolute;
+   right: 0;
+   z-index: -1;
+   
+  
+}
+
+h2{
+    text-align: center;
+    font-family: 'playfair';
+    padding-top: 1100px;
+    font-size: 30px;
+ }
+
+.foto_boks{
+   background-color:#c7d2ddd9;
+    width: 100%;
+    height: 600px;
+   margin: 0 auto;
+   margin-top: 30px;
+    
+    
+}
+
+.foto_grid{
+   display: flex;
+   
+}
+
+
+
+.ostekassen1{
+   background-image: url(billeder_ostekasser/ostekassenfotoLille1.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   width:200%;
+   height: 800px;
+   margin-top: 70px;
+   margin-left: 70px;
+}
+
+.bestil{
+   height: 35px;
+   width: 80px;
+   background-color: #b5b7bcbd;
+  
+ 
+}
+
+.bestil_p{
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(65, 65, 65);
+   text-align: center;
+   padding-top: 6px;
+   cursor: pointer;
+
+}
+
+.pris{
+
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bold;
+   font-size: 15px;
+   position: absolute;
+   margin-top: 375px;
+   padding-left: 80px;
+  
+   
+}
+
+.pris2{
+  
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
+   font-size: 15px;
+   position: absolute;
+   margin-top: 400px;
+   margin-left: 180px;
+   font-weight: bold;
+ 
+}
+
+
+
+
+
+.abonnement_tekst{
+
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   line-height: 25px;
+   font-size: 17px;
+   padding-right: 240px;
+   padding-left: 140px;
+   padding-top: 32px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
+  
+}
+
+/******************** popup ****************/
+
+
+ 
+ #popup {
+   position:absolute;
+   background-color: #fffffff4;
+   width: 20%;
+   height: 100px;
+   margin-left: 1110px;
+   margin-top: 65px;
+   border: solid;
+   border-width: 1px;
+   border-color: #bfbfbf;
+ }
+
+
+ 
+ .close {
+   color: #575757;
+   float: right;
+   padding-right: 6px;
+   font-size: 20px;
+   cursor: pointer;
+   font-weight: lighter;
+
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ .popup_tekst{
+   color: #454545;
+   padding-top: 35px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+  
+ }
+/************************ mobilsite ***********************/
+@media(max-width:800px){
+
+ 
+
+
+
+
+   .video_boks{
+   display: none;
+     
+    
+   }
+
+
+
+h1{
+  
+   display: none;
+}
+
+h2{
+    text-align: center;
+    font-family: 'playfair';
+    padding-top: 50px;
+    font-size: 20px;
+ }
+
+.foto_boks{
+    background-color:#c7d2ddd9;
+    width: 100%;
+    height: 790px;
+   margin: 0 auto;
+   margin-top: 20px;
+
+    
+}
+
+
+
+.bestil{
+   display: none;
+}
+
+.foto_grid{
+   display: flex;
+   flex-direction: column;
+   flex-flow: column-reverse;
+}
+
+.ostekassen1{
+   width: 60%;
+   margin-top: 30px;
+   padding-left: 40px;
+}
+
+
+.pris, .pris2{
+   display: none ;
+}
+
+
+
+
+.abonnement_tekst{
+
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   line-height: 25px;
+   font-size: 12px;
+   padding-right: 7px;
+   padding-left: 7px;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: bolder;
+   padding-top: 10px;
+
+
+}
+
+
+
+
+#popup {
+   position:absolute;
+   background-color: #fffffff4;
+   width: 25%;
+   height: 100px;
+   margin-left: 280px;
+   margin-bottom: 425px;
+   border: solid;
+   border-width: 1px;
+   border-color: #bfbfbf;
+ }
+
+
+ 
+ .close {
+   color: #575757;
+   float: right;
+   padding-right: 6px;
+   font-size: 20px;
+   cursor: pointer;
+   font-weight: lighter;
+
+ }
+ 
+ .close:hover,
+ .close:focus {
+   color: #000;
+   text-decoration: none;
+   cursor: pointer;
+ }
+
+ .popup_tekst{
+   color: #454545;
+   padding-top: 35px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 10px;
+  
+ }
+
+
+
+
+ 
+
+
+
+
+}

@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-image: url(logos/smaa_tiles.svg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+h1 {
+  font-family: "playfair";
+  text-align: center;
+  padding-top: 70px;
+  font-size: 45px;
+}
+
+/* Header */
+.gul_top {
+  width: 100%;
+  height: 130px;
+  background-color: #00000000;
+}
+
+.ikoner {
+  display: flex;
+  gap: 20px;
+  padding-left: 230px;
+  padding-top: 25px;
+}
+
+.ikoner img {
+  width: 12%;
+}
+
+.logo,
+.logo2 {
+  width: 65%;
+  padding-top: 10px;
+}
+
+.logo2 {
+  padding-top: 90px;
+  padding-left: 20px;
+}
+
+/* Main */
+.big-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  height: 95vh;
+  max-width: 1920px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+  margin-top: -200px;
+}
+
+.h1-logo {
+  width: 25%;
+}
+
+.logo-1-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  z-index: 9999;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 150px;
+  background-color: #71181f8d;
+  margin: 20% 5%;
+}
+
+.box_1_1 {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  text-shadow: #000000;
+}
+
+.box a:hover,
+a.active {
+  color: #71181f;
+}
+
+/* Menu */
+.menubar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  gap: 90px;
+  padding-top: 60px;
+  align-items: stretch;
+  padding-left: 50px;
+}
+
+.menu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  text-shadow: #000000;
+}
+
+.menu a:hover,
+a.active {
+  color: #71181f;
+}
+
+/* Footer */
+
+footer {
+  background-color: #71181f;
+  height: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  bottom: -400px;
+  width: 100%;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.kontakt,
+.kontakt2 p {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.kontakt {
+  padding-top: 100px;
+  height: 20px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 200px;
+}
+
+.kontakt2 {
+  padding-top: 100px;
+  height: -moz-available;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-left: 240px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+.video-container {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1; /* Set a negative z-index to move it behind other elements */
+}
+
+.back-video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 800px) {
+  h1 {
+    padding-top: 50px;
+    font-size: 30px;
+  }
+
+  .ikoner {
+    display: none;
+  }
+
+  .logo,
+  .logo2 {
+    display: none;
+  }
+
+  .big-container {
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0;
+  }
+
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .box {
+    width: 60%;
+    margin: 10% 0;
+  }
+
+  footer {
+    height: auto;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: center;
+    position: static;
+    margin-top: 40px;
+  }
+
+  .kontakt {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .kontakt,
+  .kontakt2 p {
+    font-size: 13px;
+  }
+
+  .kontakt2 {
+    width: 100%;
+    padding-left: 0;
+  }
+}
